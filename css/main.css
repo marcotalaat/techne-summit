@@ -1,0 +1,51 @@
+/*==============*/
+/* Cards */
+.cards{
+    padding: 10px 0;
+}
+.cards .main-card{
+    margin: 10px 0;
+}
+.cards .card,
+.cards .card .row,
+.cards .card-body,
+.cards .card .row img{
+    height: 100%;
+}
+.cards h1{
+    font-family: 'Raleway', sans-serif;
+    color: #2196f3;
+}
+.cards .card-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cards .card-body ul{
+    list-style: none;
+}
+.cards .card-body ul i{
+    color: #3f51b5;
+    font-size: 14px;
+}
+.cards p,
+.cards .card-body ul li{
+    font-size: 14px;
+}
+.cards .card-body button{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background: transparent;
+    border: 1px solid #333;
+}
+.cards .attend{
+    background-color: #3f51b5;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/*==============*/
