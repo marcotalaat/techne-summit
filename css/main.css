@@ -1,44 +1,54 @@
 /*==============*/
 /* Cards */
-.cards{
+.cards {
     padding: 10px 0;
 }
-.cards .main-card{
+
+.cards .main-card {
     margin: 10px 0;
 }
+
 .cards .card,
 .cards .card .row,
 .cards .card-body,
-.cards .card .row img{
+.cards .card .row img {
     height: 100%;
 }
-.cards h1{
+
+.cards h1 {
     font-family: 'Raleway', sans-serif;
     color: #2196f3;
 }
-.cards .card-title{
+
+.cards .card-title {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-top: 10px;
 }
-.cards .card-body ul{
+
+.cards .card-body ul,
+.prices .offer ul {
     list-style: none;
 }
-.cards .card-body ul i{
+
+.cards .card-body ul i {
     color: #3f51b5;
     font-size: 14px;
 }
+
 .cards p,
-.cards .card-body ul li{
+.cards .card-body ul li {
     font-size: 14px;
 }
-.cards .card-body button{
+
+.cards .card-body button {
     padding: 5px 10px;
     margin: 20px 0;
     background: transparent;
     border: 1px solid #333;
 }
-.cards .attend{
+
+.cards .attend {
     background-color: #3f51b5;
     color: #FFF;
     position: absolute;
@@ -46,6 +56,107 @@
     bottom: 0;
     padding: 5px;
     font-size: 12px;
+}
+
+/*==============*/
+
+/*==============*/
+/* Prices */
+.prices{
+    margin-top: 50px;
+}
+.prices .prices-increase {
+    background-color: #ff5722;
+    color: #FFF;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.prices .prices-increase>span {
+    margin: 0 10px;
+}
+
+.prices .sale {
+    background-color: #3852de;
+    color: #FFF;
+    padding: 10px 0;
+}
+
+.prices .sale button {
+    background: #ff5722;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+
+.prices .offer {
+    border: 1px solid #999;
+    margin: 20px 0;
+    height: 100%;
+}
+
+.prices .offer>h6 {
+    background: #435dee;
+    padding: 5px;
+    color: #FFF;
+    margin: 0;
+}
+
+.prices .offer>h5 {
+    background: #576ef1;
+    padding: 10px;
+    color: #FFF;
+}
+
+.prices .offer h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 48px;
+}
+.prices .save{
+    margin: 10px;
+    font-size: 13px;
+    position: relative;
+    background: #ff5722;
+    color: #FFF;
+    padding: 8px 11px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    -ms-border-radius: 37px;
+    -o-border-radius: 37px;
+    overflow: hidden;
+}
+.prices .save .save-second-span{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    line-height: 2.7;
+    right: 0;
+    padding: 0 7px;
+    background-color: #fb9e81bf;
+}
+.prices .offer ul{
+    padding: 0 25px;
+}
+.prices .offer ul li i {
+    color: #576ef1;
+}
+
+.prices .offer ul li a {
+    text-decoration: none;
+    color: #576ef1;
+    font-weight: bold;
+}
+
+.prices .offer button {
+    background-image: linear-gradient(
+        90deg
+        , rgba(247, 12, 9, 1) 0%, rgba(255, 106, 0, 1) 100%);
+    border: 0;
+    padding: 10px 15px;
+    margin: 10px;
+    color: #FFF;
+    font-weight: bold;
 }
 
 /*==============*/
