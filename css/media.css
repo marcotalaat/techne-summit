@@ -1,0 +1,9 @@
+/*Media Query for Med screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .prices .save{
+        font-size: 9.7px;
+    }
+    .prices .save .save-second-span{
+        line-height: 3;
+    }
+}
